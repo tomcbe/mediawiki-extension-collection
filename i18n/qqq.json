@@ -132,12 +132,14 @@
 	"coll-suggest_undo_tooltip": "{{Identical|Undo}}",
 	"coll-suggest_undo": "{{Identical|Undo}}",
 	"coll-load_local_book": "{{doc-important|Do not translate \"<code>OK</code>\" and \"<code>Cancel</code>\", they are part of a local popup on the client machine which is not localized at the moment.}}\nPLURAL support not yet available for collection extension. See the discussion on [[Thread:Support/PLURAL support for Coll-load local book/reply]].",
-	"coll-format-rl": "Collection extension output format",
+	"coll-format-rl": "Collection extension output format, mwlib PDF output, see [http://mwlib.readthedocs.org/en/latest/]",
 	"coll-format-epub": "Collection extension output format",
 	"coll-format-odf": "Collection extension output format",
 	"coll-format-zim": "Collection extension output format",
 	"coll-format-docbook": "Collection extension output format",
 	"coll-format-okawix_zeno": "Collection extension output format",
+	"coll-format-rdf2latex": "Collection extension output format, OCG PDF output",
+	"coll-format-rdf2text": "Collection extension output format, OCG plain text output",
 	"right-collectionsaveasuserpage": "{{doc-right|collectionsaveasuserpage}}",
 	"right-collectionsaveascommunitypage": "{{doc-right|collectionsaveascommunitypage}}",
 	"coll-print_export": "Caption of a frame in the toolbar (on the left-hand side of the screen), similar to {{msg-mw|toolbox}} or {{msg-mw|otherlanguages}}.\n{{Identical|Print/Export}}",
@@ -184,4 +186,8 @@
 	"coll-setting-columns": "Label for the \"number of columns\" option.\n\nSee also:\n* {{msg-mw|Coll-setting-columns-1}}\n* {{msg-mw|Coll-setting-columns-2}}",
 	"coll-setting-columns-1": "{{optional}}\n\nSee also:\n* {{msg-mw|Coll-setting-columns}}\n* {{msg-mw|Coll-setting-columns-2}}",
 	"coll-setting-columns-2": "{{optional}}\n\nSee also:\n* {{msg-mw|Coll-setting-columns}}\n* {{msg-mw|Coll-setting-columns-1}}"
+	"coll-attribution-anons": "Text to add to a list of contributors to an article when there have been anonymous contributions. $1 is the number of anonymous contributions.",
+	"coll-attribution-page": "Prototype for a page that will be added to all books for attribution purposes. $1 will be a list of articles and their contributors, $2 will be a list of all images and their contributors, $3 will be the wiki's license text.",
+	"coll-article-attribution": "An individal list item for ''coll-attribution-page''; will document an article. $1 is the article name, $2 is a URL to the article, $3 is the list of contributors to an article.",
+	"coll-image-attribution": "An individal list item for ''coll-attribution-page''; will document an image. $1 is the image name, $2 is a URL to the image, $3 is the image license, $4 is the credit field for an image, $5 is the artist for an image."
 }
