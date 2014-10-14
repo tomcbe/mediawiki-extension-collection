@@ -208,7 +208,7 @@ $collResourceTemplate = array(
 $wgResourceModules += array(
 	'ext.collection.jquery.jstorage' => $collResourceTemplate + array(
 		'scripts' => 'jstorage.js',
-		'dependencies' => 'jquery.json'
+		'dependencies' => 'json'
 	),
 	'ext.collection.suggest' => $collResourceTemplate + array(
 		'scripts' => 'suggest.js',
